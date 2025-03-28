@@ -28,5 +28,5 @@ This project was created to replicate the hero section of the official Lega Seri
 
    Open the file in your preferred browser to view the project.
 
-ANTEPRIMA
+## PREVIEW
 ![HeroSectionSerieAPreview](https://github.com/user-attachments/assets/c836ac76-0f1b-4e1f-8a6a-a105b28b4298)
