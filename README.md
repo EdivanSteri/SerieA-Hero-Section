@@ -22,7 +22,7 @@ This project was created to replicate the hero section of the official Lega Seri
 1. **Clone the repository:**
 
    ```bash
-   [git clone https://github.com/EdivanSteri/SerieA-Hero-Section.git]
+   git clone https://github.com/EdivanSteri/SerieA-Hero-Section.git
 
 2. **Open the index.html file:**
 
