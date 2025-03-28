@@ -47,6 +47,8 @@ nav {
 
   background-color: transparent;
   border: none;
+
+  transition: all 0.3s;
 }
 
 .hamburgher-icon,
@@ -72,6 +74,9 @@ nav {
   padding: 14px 20px;
 
   position: relative;
+
+  
+  transition: all 0.3s;
 }
 
 .highlighhts-btn::after {
@@ -91,6 +96,8 @@ nav {
   background-image: url(./img/Serie_A.svg.png);
   background-size: cover;
   background-position: center;
+
+  transition: all 0.3s;
 }
 
 section {
@@ -147,6 +154,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: all 0.3s;
 }
 
 .article-icon {
@@ -200,6 +209,8 @@ h3 {
 .match {
   background-color: #fff;
   width: 100%;
+
+  transition: all 0.3s;
 }
 
 .matches-btn {
@@ -207,6 +218,8 @@ h3 {
   width: 150px;
 
   border: none;
+
+  transition: all 0.3s;
 }
 
 .matches-icon {
