@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+
+  line-height: 1;
+}
+
+header {
+  height: 85vh;
+  padding: 10px;
+
+  background-image: linear-gradient(rgba(25, 25, 250, 0.158), rgba(25, 25, 250, 0.096)), url(./img/leao.webp);
+  background-size: cover;
+
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+
+  padding: 0 20px;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-right: 25px;
+}
+
+.hamburgher-btn,
+.search-btn {
+  height: 50px;
+  width: 50px;
+
+  background-color: transparent;
+  border: none;
+}
+
+.hamburgher-icon,
+.search-icon {
+  stroke: #fff;
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.highlighhts-btn {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+
+  background-color: #005bff;
+  align-content: center;
+
+  display: inline-block;
+  padding: 14px 20px;
+
+  position: relative;
+}
+
+.highlighhts-btn::after {
+  content: "";
+  height: 100%;
+  width: 0.5px;
+  top: 0;
+  background-color: #858ed1;
+  border-right: 1px solid #858ed1;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.img {
+  height: 70px;
+  width: 50px;
+  background-image: url(./img/Serie_A.svg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  margin-left: 70px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #00e8da;
+  background-color: #005bff;
+
+  margin-bottom: 20px;
+  padding: 8px 16px;
+
+  display: inline-block;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #00e8da;
+}
+
+.article-container {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  margin-bottom: 200px;
+}
+
+.article-btn {
+  height: 30px;
+  width: 30px;
+
+  background-color: #00e8da;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-icon {
+  height: 20px;
+  width: 20px;
+
+  stroke: #005bff;
+}
+
+.dashes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.dash {
+  height: 5px;
+  width: 50px;
+
+  background-color: #afafaf;
+}
+
+.active-dash {
+  background-color: #00e8da;
+}
+
+.matches-container {
+  width: 80%;
+  background-color: transparent;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.match,
+.matches-btn {
+  height: 150px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.match {
+  background-color: #fff;
+  width: 100%;
+}
+
+.matches-btn {
+  background-color: #005bff;
+  width: 150px;
+
+  border: none;
+}
+
+.matches-icon {
+  stroke: #00e8da;
+}
+
+.hamburgher-btn:hover .hamburgher-icon,
+.img:hover,
+.search-btn:hover .search-icon,
+h1,
+h3,
+.article-btn:hover .article-icon,
+.article-btn:hover .article-icon,
+.dash:hover {
+  cursor: pointer;
+}
+
+.highlighhts-btn:hover {
+  cursor: pointer;
+  color: #00e8da;
+  background-color: #49adff;
+}
+
+
+.article-btn:hover {
+  background-color: #00ffee;
+}
+
+.match:hover {
+  cursor: pointer;
+  transform: translate(0, -20%);
+}
+
+.matches-btn:hover .matches-icon {
+  cursor: pointer;
+}
+
+.matches-btn:hover {
+  background-color: #0099ff;
+}
