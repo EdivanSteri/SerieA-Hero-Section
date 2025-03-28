@@ -23,3 +23,10 @@ This project was created to replicate the hero section of the official Lega Seri
 
    ```bash
    [git clone https://github.com/EdivanSteri/SerieA-Hero-Section.git]
+
+2. Open the index.html file:
+
+   Open the file in your preferred browser to view the project.
+
+ANTEPRIMA
+![HeroSectionSerieAPreview](https://github.com/user-attachments/assets/c836ac76-0f1b-4e1f-8a6a-a105b28b4298)
